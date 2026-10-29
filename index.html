@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <title>Space Shooter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game">
+    <h1>🚀 SPACE SHOOTER</h1>
+
+    <div class="info">
+      <span>Skor: <b id="score">0</b></span>
+      <span>Nyawa: <b id="lives">3</b></span>
+    </div>
+
+    <div class="arena">
+      <canvas id="gameCanvas"></canvas>
+
+      <div id="overlay" class="overlay">
+        <h2 id="message">SPACE SHOOTER</h2>
+        <p id="description">
+          Hancurkan musuh dan raih skor tertinggi!
+        </p>
+        <button id="startBtn">MULAI GAME</button>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button id="leftBtn">⬅️</button>
+      <button id="shootBtn">🔥 TEMBAK</button>
+      <button id="rightBtn">➡️</button>
+    </div>
+
+    <p class="hint">
+      Geser pesawat, tembak musuh, jangan sampai tertabrak!
+    </p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
